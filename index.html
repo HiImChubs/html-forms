@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+</html>
+
+<head>
+</head>
+
+<body>
+
+<h1>Order Now!</h1>
+
+<form>
+
+  <fieldset>
+    <legend>Shipping Info</legend>
+      <label for="name">Name:<br></label>
+        <input type="text" name="name"></br>
+      <label for="address">Adress:<br></label>
+        <input type="text" name="adress"></br>
+      <label for="city">City:<br></label>
+        <input type="text" name="city">
+      <label for="state">State:</label>
+        <input type="text" name="state">
+      <label for="zip">Zip:</label>
+        <input type="text" name="zip"></br>
+    </fieldset>
+
+  <fieldset>
+    <legend>Size and Ammount</legend>
+      <label for="size">Select Size/Quantity</label>  <select id="size" name="size">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+        <option value="extra Large">Extra Large</option>
+        Quantity:<br>
+      <input type="text" name="quantity"></br>
+  </fieldset>
+
+
+  <fieldset>
+    <legend>Payment Info</legend>
+      <p>Select Card Type</p>
+        <input id="visa" type="radio" name="card" value="Visa" checked><label form="visa"> Visa </label>
+        <input id="mc" type="radio" name="card" value="Mastercard" checked><label form="mastercard"> Mastercard
+        <input id="disc" type="radio" name="card" value="Discovery" checked><label form="discovery"> Discovery<br>
+
+          <br><label for="cc_number">Credit Card Number</label>
+          <input id="cc_number" type="text" name="cc_number"></br
+          <br><input type="submit" value="Place Order"></br>
+  </fieldset>
+        </form>
+
+</body>
+
+</html>
